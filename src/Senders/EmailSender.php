@@ -9,6 +9,6 @@ class EmailSender implements NotificationSenderInterface
     #[Override]
     public function send(string $to, string $message): bool
     {
-        return "Робот отправил сообщение на почту {$to}: {$message}\n";
+        return "Робот отправил Электронное письмо на почту {$to}: {$message}\n";
     }
 }
