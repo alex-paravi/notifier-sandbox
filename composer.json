@@ -1,0 +1,15 @@
+{
+    "name": "apara/notifier-sandbox",
+    "autoload": {
+        "psr-4": {
+            "Apara\\NotifierSandbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexparavi",
+            "email": "alexparavi@gmail.com"
+        }
+    ],
+    "require": {}
+}
